@@ -1,0 +1,1388 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD EXTMEM ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F87J50 ]
+[d frameptr 4065 ]
+"70 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/main.c
+[e E300 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"94 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device.c
+[e E6142 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"670
+[e E6083 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"1974
+[e E6151 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"6 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_events.c
+[e E245 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"17
+[e E2 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"43
+[e E313 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"29 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/app_device_custom_hid.c
+[e E297 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"22 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/system.c
+[e E5713 . `uc
+SYSTEM_STATE_USB_START 0
+SYSTEM_STATE_USB_SUSPEND 1
+SYSTEM_STATE_USB_RESUME 2
+]
+"17 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/app_device_custom_hid.c
+[v _APP_DeviceCustomHIDInitialize APP_DeviceCustomHIDInitialize `(v  1 e 1 0 ]
+"24
+[v _APP_DeviceCustomHIDTasks APP_DeviceCustomHIDTasks `(v  1 e 1 0 ]
+"14 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/helpfunc.c
+[v _SetInputLatchAddress SetInputLatchAddress `(v  1 e 1 0 ]
+"22
+[v _AllowInputs AllowInputs `(v  1 e 1 0 ]
+"32
+[v _AllowDataOut AllowDataOut `(v  1 e 1 0 ]
+"41
+[v _ClearAllPins ClearAllPins `(v  1 e 1 0 ]
+"52
+[v _LatchData LatchData `(v  1 e 1 0 ]
+"90
+[v _ReadADDataChannels ReadADDataChannels `(v  1 e 1 0 ]
+"125
+[v _ReadADChannels ReadADChannels `(v  1 e 1 0 ]
+"153
+[v _ReadAD ReadAD `(ui  1 e 2 0 ]
+"43 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/main.c
+[v _main main `(i  1 e 2 0 ]
+"77
+[v _InitializeSystem InitializeSystem `(v  1 s 1 InitializeSystem ]
+"143
+[v _ProcessIO ProcessIO `(v  1 e 1 0 ]
+"10 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"25
+[v _SYS_InterruptLow SYS_InterruptLow `IIL(v  1 e 1 0 ]
+"31
+[v _SYS_InterruptHigh SYS_InterruptHigh `IIH(v  1 e 1 0 ]
+"234 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+"434
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+"835
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+"952
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 3 0 ]
+"1373
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+"1445
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+"1500
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+"1573
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+"1728
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+"1809
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+"1925
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+"2000
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+"2086
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+"2162
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+"2205
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+"2263
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+"2332
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+"2425
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+"2498
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+"2552
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+"2646
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+"2714
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+"2951
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+"118 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 1 0 ]
+"6 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(a  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/app_device_custom_hid.c
+[v _ReceivedDataBuffer ReceivedDataBuffer `[64]uc  1 e 64 0 ]
+"7
+[v _ToSendDataBuffer ToSendDataBuffer `[64]uc  1 e 64 0 ]
+"14
+[v _USBOutHandle USBOutHandle `*.39VEv  1 e 2 0 ]
+"15
+[v _USBInHandle USBInHandle `*.39VEv  1 e 2 0 ]
+"5 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/helpfunc.c
+[v _vsense_12v vsense_12v `ui  1 e 2 0 ]
+"6
+[v _vsense_3v3 vsense_3v3 `ui  1 e 2 0 ]
+"7
+[v _vsense_15v vsense_15v `ui  1 e 2 0 ]
+"8
+[v _vsense_psu vsense_psu `ui  1 e 2 0 ]
+"12
+[v _inputs inputs `[48]ui  1 e 96 0 ]
+"27 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/main.c
+[v _led_status led_status `uc  1 e 1 0 ]
+"28
+[v _bg_flag bg_flag `uc  1 e 1 0 ]
+"30
+[v _pwm_max pwm_max `uc  1 e 1 0 ]
+"31
+[v _pwm_value pwm_value `uc  1 e 1 0 ]
+"32
+[v _pwm_step pwm_step `uc  1 e 1 0 ]
+"33
+[v _pwm_flag pwm_flag `uc  1 e 1 0 ]
+"34
+[v _pwm_step_value pwm_step_value `c  1 e 1 0 ]
+[s S831 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `us 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `us 1 idVendor 2 8 `us 1 idProduct 2 10 `us 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"14 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_descriptors.c
+[v _device_dsc device_dsc `CS831  1 e 18 0 ]
+"33
+[v _configDescriptor1 configDescriptor1 `C[41]uc  1 e 41 0 ]
+[s S846 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]us 1 string 2 2 ]
+"82
+[v _sd000 sd000 `CS846  1 e 4 0 ]
+[s S850 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]us 1 string 50 2 ]
+"87
+[v _sd001 sd001 `CS850  1 e 52 0 ]
+[s S854 . 46 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[22]us 1 string 44 2 ]
+"92
+[v _sd002 sd002 `CS854  1 e 46 0 ]
+[s S858 . 29 `[29]uc 1 report 29 0 ]
+"97
+[v _hid_rpt01 hid_rpt01 `CS858  1 e 29 0 ]
+"117
+[v _USB_CD_Ptr USB_CD_Ptr `C[1]*.31Cuc  1 e 1 0 ]
+"123
+[v _USB_SD_Ptr USB_SD_Ptr `C[3]*.31Cuc  1 e 3 0 ]
+"94 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device.c
+[v _USBDeviceState USBDeviceState `E300  1 e 1 0 ]
+"95
+[v _USBActiveConfiguration USBActiveConfiguration `uc  1 e 1 0 ]
+"96
+[v _USBAlternateInterface USBAlternateInterface `[1]uc  1 e 1 0 ]
+[s S902 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"97
+[s S911 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S918 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S922 _BD_STAT 1 `uc 1 Val 1 0 `S902 1 . 1 0 `S911 1 . 1 0 `S918 1 . 1 0 ]
+[s S927 . 4 `S922 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S932 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S936 __BDT 4 `S927 1 . 4 0 `S932 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.39VES936  1 e 2 0 ]
+"98
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES936  1 e 2 0 ]
+"99
+[v _pBDTEntryOut pBDTEntryOut `[2]*.39VES936  1 e 4 0 ]
+"100
+[v _pBDTEntryIn pBDTEntryIn `[2]*.39VES936  1 e 4 0 ]
+"101
+[v _shortPacketStatus shortPacketStatus `uc  1 e 1 0 ]
+"102
+[v _controlTransferState controlTransferState `uc  1 e 1 0 ]
+[u S941 . 2 `*.34uc 1 bRam 2 0 `*.39Cuc 1 bRom 2 0 `*.39us 1 wRam 2 0 `*.39Cus 1 wRom 2 0 ]
+"103
+[s S946 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S951 . 1 `S946 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S954 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S957 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S954 1 byte 2 0 ]
+[s S961 . 5 `S941 1 pSrc 2 0 `S951 1 info 1 2 `S957 1 wCount 2 3 ]
+[v _inPipes inPipes `[1]S961  1 e 5 0 ]
+[u S965 . 2 `*.39uc 1 bRam 2 0 `*.39us 1 wRam 2 0 ]
+"104
+[s S968 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S971 . 1 `S968 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S975 . 8 `S965 1 pDst 2 0 `S971 1 info 1 2 `S957 1 wCount 2 3 `*.38(v 1 pFunc 3 5 ]
+[v _outPipes outPipes `[1]S975  1 e 8 0 ]
+"105
+[v _pDst pDst `*.39uc  1 e 2 0 ]
+"106
+[v _RemoteWakeup RemoteWakeup `a  1 e 1 0 ]
+"107
+[v _USBBusIsSuspended USBBusIsSuspended `a  1 e 1 0 ]
+[s S980 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"108
+[u S985 __USTAT 1 `S980 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `S985  1 e 1 0 ]
+"109
+[v _endpoint_number endpoint_number `uc  1 e 1 0 ]
+"110
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `a  1 e 1 0 ]
+[s S988 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"111
+[u S991 . 1 `S988 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `[2]S991  1 e 2 0 ]
+"112
+[v _ep_data_out ep_data_out `[2]S991  1 e 2 0 ]
+"113
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `uc  1 e 1 0 ]
+"114
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEa  1 e 1 0 ]
+"115
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEa  1 e 1 0 ]
+"116
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEa  1 e 1 0 ]
+"117
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEa  1 e 1 0 ]
+"118
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEa  1 e 1 0 ]
+"119
+[v _USB1msTickCount USB1msTickCount `ul  1 e 4 0 ]
+"120
+[v _USBTicksSinceSuspendEnd USBTicksSinceSuspendEnd `uc  1 e 1 0 ]
+"127
+[v _BDT BDT `VE[8]S936  1 e 32 @1024 ]
+[s S994 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `us 1 wValue 2 2 `us 1 wIndex 2 4 `us 1 wLength 2 6 ]
+"132
+[s S1021 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S957 1 W_Value 2 2 `S957 1 W_Index 2 4 `S957 1 W_Length 2 6 ]
+[s S1027 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1038 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S1042 . 1 `uc 1 bmRequestType 1 0 `S1038 1 . 1 0 ]
+[s S1045 . 1 `S1042 1 requestInfo 1 0 ]
+[s S1047 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `us 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1055 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1064 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1073 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1082 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1091 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S1102 . 8 `S994 1 . 8 0 `S1021 1 . 8 0 `S1027 1 . 8 0 `S1045 1 . 1 0 `S1047 1 . 8 0 `S1055 1 . 8 0 `S1064 1 . 8 0 `S1073 1 . 8 0 `S1082 1 . 8 0 `S1091 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES1102  1 e 8 @1056 ]
+"133
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @1064 ]
+"44 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device_hid.c
+[v _idle_rate idle_rate `uc  1 s 1 idle_rate ]
+"45
+[v _active_protocol active_protocol `uc  1 s 1 active_protocol ]
+"648 C:/Users/bruce/.mchp_packs/Microchip/PIC18F-J_DFP/1.7.159/xc8\pic\include\proc/pic18f87j50.h
+[v _UEP0 UEP0 `VEuc  1 e 1 @3916 ]
+[s S1354 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"676
+[s S1360 . 1 `uc 1 EP0STALL 1 0 :1:0 
+`uc 1 EP0INEN 1 0 :1:1 
+`uc 1 EP0OUTEN 1 0 :1:2 
+`uc 1 EP0CONDIS 1 0 :1:3 
+`uc 1 EP0HSHK 1 0 :1:4 
+]
+[s S1366 . 1 `uc 1 EPSTALL0 1 0 :1:0 
+`uc 1 EPINEN0 1 0 :1:1 
+`uc 1 EPOUTEN0 1 0 :1:2 
+`uc 1 EPCONDIS0 1 0 :1:3 
+`uc 1 EPHSHK0 1 0 :1:4 
+]
+[u S1372 . 1 `S1354 1 . 1 0 `S1360 1 . 1 0 `S1366 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES1372  1 e 1 @3916 ]
+"756
+[v _UEP1 UEP1 `VEuc  1 e 1 @3917 ]
+"2120
+[v _UIE UIE `VEuc  1 e 1 @3932 ]
+[s S1229 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"2136
+[u S1237 . 1 `S1229 1 . 1 0 ]
+[v _UIEbits UIEbits `VES1237  1 e 1 @3932 ]
+"2176
+[v _UEIE UEIE `VEuc  1 e 1 @3933 ]
+"2227
+[v _UADDR UADDR `VEuc  1 e 1 @3934 ]
+"2291
+[v _UCFG UCFG `VEuc  1 e 1 @3935 ]
+"2495
+[v _UIR UIR `VEuc  1 e 1 @3938 ]
+[s S1174 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"2511
+[u S1182 . 1 `S1174 1 . 1 0 ]
+[v _UIRbits UIRbits `VES1182  1 e 1 @3938 ]
+"2551
+[v _UEIR UEIR `VEuc  1 e 1 @3939 ]
+"2602
+[v _USTAT USTAT `VEuc  1 e 1 @3940 ]
+"2662
+[v _UCON UCON `VEuc  1 e 1 @3941 ]
+[s S590 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"2678
+[u S598 . 1 `S590 1 . 1 0 ]
+[v _UCONbits UCONbits `VES598  1 e 1 @3941 ]
+[s S457 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"5312
+[s S466 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S475 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S484 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 C2OUT 1 0 :1:5 
+]
+[s S487 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S491 . 1 `S457 1 . 1 0 `S466 1 . 1 0 `S475 1 . 1 0 `S484 1 . 1 0 `S487 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES491  1 e 1 @3970 ]
+"5442
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S189 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+`uc 1 RE4 1 0 :1:4 
+`uc 1 RE5 1 0 :1:5 
+`uc 1 RE6 1 0 :1:6 
+`uc 1 RE7 1 0 :1:7 
+]
+"5713
+[s S198 . 1 `uc 1 AD8 1 0 :1:0 
+`uc 1 AD9 1 0 :1:1 
+`uc 1 AD10 1 0 :1:2 
+`uc 1 AD11 1 0 :1:3 
+`uc 1 AD12 1 0 :1:4 
+`uc 1 AD13 1 0 :1:5 
+`uc 1 AD14 1 0 :1:6 
+`uc 1 AD15 1 0 :1:7 
+]
+[s S207 . 1 `uc 1 PMRD 1 0 :1:0 
+`uc 1 PMWR 1 0 :1:1 
+`uc 1 PMBE 1 0 :1:2 
+`uc 1 PMA13 1 0 :1:3 
+`uc 1 PMA12 1 0 :1:4 
+`uc 1 PMA11 1 0 :1:5 
+`uc 1 PMA10 1 0 :1:6 
+`uc 1 PMA9 1 0 :1:7 
+]
+[s S216 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 REFO 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 CCP2 1 0 :1:7 
+]
+[s S221 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+`uc 1 CCP8E 1 0 :1:4 
+`uc 1 CCP7E 1 0 :1:5 
+`uc 1 CCP6E 1 0 :1:6 
+`uc 1 CCP2E 1 0 :1:7 
+]
+[s S230 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+`uc 1 PB3E 1 0 :1:4 
+`uc 1 PC1E 1 0 :1:5 
+`uc 1 PB1E 1 0 :1:6 
+`uc 1 PA2E 1 0 :1:7 
+]
+[s S239 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+]
+[u S242 . 1 `S189 1 . 1 0 `S198 1 . 1 0 `S207 1 . 1 0 `S216 1 . 1 0 `S221 1 . 1 0 `S230 1 . 1 0 `S239 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES242  1 e 1 @3972 ]
+[s S24 . 1 `uc 1 RG0 1 0 :1:0 
+`uc 1 RG1 1 0 :1:1 
+`uc 1 RG2 1 0 :1:2 
+`uc 1 RG3 1 0 :1:3 
+`uc 1 RG4 1 0 :1:4 
+`uc 1 RJPU 1 0 :1:5 
+`uc 1 REPU 1 0 :1:6 
+`uc 1 RDPU 1 0 :1:7 
+]
+"6130
+[s S33 . 1 `uc 1 CCP3 1 0 :1:0 
+`uc 1 TX2 1 0 :1:1 
+`uc 1 RX2 1 0 :1:2 
+`uc 1 CCP4 1 0 :1:3 
+`uc 1 CCP5 1 0 :1:4 
+]
+[s S39 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CK2 1 0 :1:1 
+`uc 1 DT2 1 0 :1:2 
+]
+[s S43 . 1 `uc 1 PMA8 1 0 :1:0 
+`uc 1 PMA7 1 0 :1:1 
+`uc 1 PMA6 1 0 :1:2 
+`uc 1 PMCS1 1 0 :1:3 
+`uc 1 PMCS2 1 0 :1:4 
+]
+[s S49 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 C3OUTG 1 0 :1:1 
+`uc 1 . 1 0 :3:2 
+`uc 1 RG5 1 0 :1:5 
+`uc 1 RG6 1 0 :1:6 
+`uc 1 RG7 1 0 :1:7 
+]
+[u S56 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S39 1 . 1 0 `S43 1 . 1 0 `S49 1 . 1 0 ]
+[v _PORTGbits PORTGbits `VES56  1 e 1 @3974 ]
+[s S95 . 1 `uc 1 RH0 1 0 :1:0 
+`uc 1 RH1 1 0 :1:1 
+`uc 1 RH2 1 0 :1:2 
+`uc 1 RH3 1 0 :1:3 
+`uc 1 RH4 1 0 :1:4 
+`uc 1 RH5 1 0 :1:5 
+`uc 1 RH6 1 0 :1:6 
+`uc 1 RH7 1 0 :1:7 
+]
+"6311
+[s S104 . 1 `uc 1 A16 1 0 :1:0 
+`uc 1 A17 1 0 :1:1 
+`uc 1 A18 1 0 :1:2 
+`uc 1 A19 1 0 :1:3 
+`uc 1 AN12 1 0 :1:4 
+`uc 1 AN13 1 0 :1:5 
+`uc 1 AN14 1 0 :1:6 
+`uc 1 AN15 1 0 :1:7 
+]
+[s S113 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PMD7 1 0 :1:2 
+`uc 1 PMD6 1 0 :1:3 
+`uc 1 PMD3 1 0 :1:4 
+`uc 1 PMBE 1 0 :1:5 
+`uc 1 PMRD 1 0 :1:6 
+`uc 1 PMWR 1 0 :1:7 
+]
+[s S121 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 C2INC 1 0 :1:4 
+`uc 1 C2IND 1 0 :1:5 
+`uc 1 C1INC 1 0 :1:6 
+]
+[s S126 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP9 1 0 :1:4 
+`uc 1 CCP8 1 0 :1:5 
+`uc 1 CCP7 1 0 :1:6 
+`uc 1 CCP6 1 0 :1:7 
+]
+[s S132 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PC3 1 0 :1:4 
+`uc 1 PB3 1 0 :1:5 
+`uc 1 PC1 1 0 :1:6 
+`uc 1 PB1 1 0 :1:7 
+]
+[u S138 . 1 `S95 1 . 1 0 `S104 1 . 1 0 `S113 1 . 1 0 `S121 1 . 1 0 `S126 1 . 1 0 `S132 1 . 1 0 ]
+[v _PORTHbits PORTHbits `VES138  1 e 1 @3975 ]
+[s S541 . 1 `uc 1 RJ0 1 0 :1:0 
+`uc 1 RJ1 1 0 :1:1 
+`uc 1 RJ2 1 0 :1:2 
+`uc 1 RJ3 1 0 :1:3 
+`uc 1 RJ4 1 0 :1:4 
+`uc 1 RJ5 1 0 :1:5 
+`uc 1 RJ6 1 0 :1:6 
+`uc 1 RJ7 1 0 :1:7 
+]
+"6508
+[s S550 . 1 `uc 1 ALE 1 0 :1:0 
+`uc 1 OE 1 0 :1:1 
+`uc 1 WRL 1 0 :1:2 
+`uc 1 WRH 1 0 :1:3 
+`uc 1 BA0 1 0 :1:4 
+`uc 1 CE 1 0 :1:5 
+`uc 1 LB 1 0 :1:6 
+`uc 1 UB 1 0 :1:7 
+]
+[u S559 . 1 `S541 1 . 1 0 `S550 1 . 1 0 ]
+[v _PORTJbits PORTJbits `VES559  1 e 1 @3976 ]
+"7543
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"7765
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"7987
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"8209
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"8431
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"8653
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+"8831
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+"8981
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+"9203
+[v _TRISJ TRISJ `VEuc  1 e 1 @3994 ]
+[s S653 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+`uc 1 TUN5 1 0 :1:5 
+`uc 1 PLLEN 1 0 :1:6 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"9442
+[u S662 . 1 `S653 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES662  1 e 1 @3995 ]
+[s S1113 . 1 `uc 1 CCP2IE 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 LVDIE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 USBIE 1 0 :1:4 
+`uc 1 CM1IE 1 0 :1:5 
+`uc 1 CM2IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"9966
+[s S1122 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BCLIE 1 0 :1:3 
+]
+[s S1125 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S1128 . 1 `S1113 1 . 1 0 `S1122 1 . 1 0 `S1125 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES1128  1 e 1 @4000 ]
+[s S1194 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 LVDIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 USBIF 1 0 :1:4 
+`uc 1 CM1IF 1 0 :1:5 
+`uc 1 CM2IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"10046
+[s S1203 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 BCLIF 1 0 :1:3 
+]
+[s S1206 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S1209 . 1 `S1194 1 . 1 0 `S1203 1 . 1 0 `S1206 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1209  1 e 1 @4001 ]
+[s S623 . 1 `uc 1 SWDTEN 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 ADSHR 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 LVDSTAT 1 0 :1:6 
+`uc 1 REGSLP 1 0 :1:7 
+]
+"12743
+[s S630 . 1 `uc 1 SWDTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 DEVCFG 1 0 :1:4 
+]
+[u S634 . 1 `S623 1 . 1 0 `S630 1 . 1 0 ]
+[v _WDTCONbits WDTCONbits `VES634  1 e 1 @4032 ]
+"12778
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"12875
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @4033 ]
+"12949
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S310 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"12994
+[s S313 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 VCFG 1 0 :2:6 
+]
+[s S318 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 VCFG0 1 0 :1:6 
+`uc 1 VCFG1 1 0 :1:7 
+]
+[s S327 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S330 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S333 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S336 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+`uc 1 . 1 0 :5:2 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S341 . 1 `S310 1 . 1 0 `S313 1 . 1 0 `S318 1 . 1 0 `S327 1 . 1 0 `S330 1 . 1 0 `S333 1 . 1 0 `S336 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES341  1 e 1 @4034 ]
+"13084
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @4034 ]
+"13164
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"13171
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S674 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"16030
+[s S681 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+]
+[u S686 . 1 `S674 1 . 1 0 `S681 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES686  1 e 1 @4053 ]
+"16092
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"16099
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S702 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"16596
+[s S711 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S720 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S724 . 1 `S702 1 . 1 0 `S711 1 . 1 0 `S720 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES724  1 e 1 @4082 ]
+"43 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"75
+} 0
+"434 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+{
+"436
+[v USBDeviceTasks@i i `uc  1 a 1 32 ]
+"784
+} 0
+"2263
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+{
+"2309
+} 0
+"2205
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+{
+"2246
+} 0
+"2162
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+{
+"2187
+} 0
+"2951
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+{
+"2969
+} 0
+"234
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"236
+[v USBDeviceInit@i i `uc  1 a 1 9 ]
+"328
+} 0
+"2332
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+{
+"2383
+} 0
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 3 0 ]
+{
+"8
+[v memcpy@s s `*.39Cuc  1 a 2 9 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 7 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 11 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 1 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 3 ]
+[v memcpy@n n `ui  1 p 2 5 ]
+"18
+} 0
+"2425 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device.c
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+{
+"2475
+} 0
+"1573
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+{
+"1705
+} 0
+"1445
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+{
+"1475
+} 0
+"2646
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+{
+"2693
+} 0
+"1925
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+{
+"1927
+[v USBStdSetCfgHandler@i i `uc  1 a 1 23 ]
+"1981
+} 0
+"3 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 3 0 ]
+{
+"5
+[v memset@p p `*.39uc  1 a 2 7 ]
+"3
+[v memset@dest dest `*.39v  1 p 2 1 ]
+[v memset@c c `i  1 p 2 3 ]
+[v memset@n n `ui  1 p 2 5 ]
+"10
+} 0
+"2086 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+{
+[s S902 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2119
+[s S911 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S918 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S922 _BD_STAT 1 `uc 1 Val 1 0 `S902 1 . 1 0 `S911 1 . 1 0 `S918 1 . 1 0 ]
+[s S927 . 4 `S922 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S932 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S936 __BDT 4 `S927 1 . 4 0 `S932 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S936  1 a 2 1 ]
+"2144
+} 0
+"2000
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+{
+"2069
+} 0
+"2714
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+{
+[s S902 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2716
+[s S911 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S918 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S922 _BD_STAT 1 `uc 1 Val 1 0 `S902 1 . 1 0 `S911 1 . 1 0 `S918 1 . 1 0 ]
+[s S927 . 4 `S922 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S932 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S936 __BDT 4 `S927 1 . 4 0 `S932 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S936  1 a 2 28 ]
+"2721
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 25 ]
+[s S988 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2717
+[u S991 . 1 `S988 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S991  1 a 1 27 ]
+"2906
+} 0
+"6 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(a  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E245  1 p 2 15 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 17 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `us  1 p 2 19 ]
+"45
+} 0
+"118 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device_hid.c
+[v _USBCheckHIDRequest USBCheckHIDRequest `(v  1 e 1 0 ]
+{
+"206
+} 0
+"10 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+[v SYSTEM_Initialize@state state `uc  1 p 1 wreg ]
+[v SYSTEM_Initialize@state state `uc  1 p 1 wreg ]
+[v SYSTEM_Initialize@state state `uc  1 p 1 1 ]
+"23
+} 0
+"17 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/app_device_custom_hid.c
+[v _APP_DeviceCustomHIDInitialize APP_DeviceCustomHIDInitialize `(v  1 e 1 0 ]
+{
+"22
+} 0
+"835 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device.c
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 p 1 wreg ]
+"837
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 12 ]
+"835
+[v USBEnableEndpoint@ep ep `uc  1 p 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 11 ]
+"841
+[v USBEnableEndpoint@ep ep `uc  1 p 1 14 ]
+"859
+} 0
+"1500
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 p 1 wreg ]
+[s S902 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1502
+[s S911 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S918 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S922 _BD_STAT 1 `uc 1 Val 1 0 `S902 1 . 1 0 `S911 1 . 1 0 `S918 1 . 1 0 ]
+[s S927 . 4 `S922 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S932 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S936 __BDT 4 `S927 1 . 4 0 `S932 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.39VES936  1 a 2 9 ]
+"1500
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 p 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 1 ]
+"1506
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 p 1 8 ]
+"1542
+} 0
+"2498
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+{
+"2527
+} 0
+"1809
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+{
+"1811
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 2 ]
+"1812
+[v USBCtrlTrfRxService@i i `uc  1 a 1 1 ]
+"1904
+} 0
+"1373
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+{
+"1416
+} 0
+"2552
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+{
+"2554
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 2 ]
+"2627
+} 0
+"1728
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+{
+"1730
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 1 ]
+"1782
+} 0
+"143 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/main.c
+[v _ProcessIO ProcessIO `(v  1 e 1 0 ]
+{
+"194
+} 0
+"77
+[v _InitializeSystem InitializeSystem `(v  1 s 1 InitializeSystem ]
+{
+"104
+[v InitializeSystem@pll_startup_counter pll_startup_counter `ui  1 a 2 1 ]
+"141
+} 0
+"22 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/helpfunc.c
+[v _AllowInputs AllowInputs `(v  1 e 1 0 ]
+{
+"25
+} 0
+"32
+[v _AllowDataOut AllowDataOut `(v  1 e 1 0 ]
+{
+"35
+} 0
+"24 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/app_device_custom_hid.c
+[v _APP_DeviceCustomHIDTasks APP_DeviceCustomHIDTasks `(v  1 e 1 0 ]
+{
+"26
+[v APP_DeviceCustomHIDTasks@t t `uc  1 a 1 34 ]
+"149
+} 0
+"952 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 3 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 p 1 wreg ]
+[s S902 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"954
+[s S911 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S918 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S922 _BD_STAT 1 `uc 1 Val 1 0 `S902 1 . 1 0 `S911 1 . 1 0 `S918 1 . 1 0 ]
+[s S927 . 4 `S922 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S932 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S936 __BDT 4 `S927 1 . 4 0 `S932 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES936  1 a 2 10 ]
+"952
+[v USBTransferOnePacket@ep ep `uc  1 p 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 1 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 2 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 4 ]
+"957
+[v USBTransferOnePacket@ep ep `uc  1 p 1 9 ]
+"1004
+} 0
+"90 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/helpfunc.c
+[v _ReadADDataChannels ReadADDataChannels `(v  1 e 1 0 ]
+{
+"92
+[v ReadADDataChannels@t t `uc  1 a 1 9 ]
+"124
+} 0
+"14
+[v _SetInputLatchAddress SetInputLatchAddress `(v  1 e 1 0 ]
+{
+[v SetInputLatchAddress@v v `uc  1 p 1 wreg ]
+[v SetInputLatchAddress@v v `uc  1 p 1 wreg ]
+"16
+[v SetInputLatchAddress@v v `uc  1 p 1 2 ]
+"20
+} 0
+"125
+[v _ReadADChannels ReadADChannels `(v  1 e 1 0 ]
+{
+"128
+[v ReadADChannels@t t `d  1 a 4 26 ]
+"151
+} 0
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 17 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 16 ]
+"10
+[v ___xxtofl@sign sign `uc  1 p 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 7 ]
+"15
+[v ___xxtofl@sign sign `uc  1 p 1 15 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 10 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 9 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 1 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S3196 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S3201 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S3204 . 4 `l 1 i 4 0 `d 1 f 4 0 `S3196 1 fAsBytes 4 0 `S3201 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S3204  1 a 4 20 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 14 ]
+[s S3272 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S3275 . 2 `s 1 i 2 0 `us 1 n 2 0 `S3272 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S3275  1 a 2 24 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 19 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 18 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 13 ]
+"8
+[v ___flmul@b b `d  1 p 4 1 ]
+[v ___flmul@a a `d  1 p 4 5 ]
+"205
+} 0
+"153 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/helpfunc.c
+[v _ReadAD ReadAD `(ui  1 e 2 0 ]
+{
+"155
+[v ReadAD@i i `i  1 a 2 5 ]
+"163
+} 0
+"52
+[v _LatchData LatchData `(v  1 e 1 0 ]
+{
+[v LatchData@pin pin `uc  1 p 1 1 ]
+[v LatchData@latch latch `uc  1 p 1 2 ]
+[v LatchData@port_value port_value `uc  1 p 1 3 ]
+"88
+} 0
+"41
+[v _ClearAllPins ClearAllPins `(v  1 e 1 0 ]
+{
+"50
+} 0
+"25 C:\Users\bruce\Documents\EAGLE\projects\UHT\SW\V25/system.c
+[v _SYS_InterruptLow SYS_InterruptLow `IIL(v  1 e 1 0 ]
+{
+"29
+} 0
+"31
+[v _SYS_InterruptHigh SYS_InterruptHigh `IIH(v  1 e 1 0 ]
+{
+"47
+} 0

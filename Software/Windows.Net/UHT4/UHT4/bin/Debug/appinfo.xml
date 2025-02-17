@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UHTSerializationAppInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <sDataDirectory>G:\Local Developement\UHT2019\AppData</sDataDirectory>
+  <ShowWires>true</ShowWires>
+  <bAppDebug>false</bAppDebug>
+  <bAppDebug2>false</bAppDebug2>
+  <bSaveTestData>false</bSaveTestData>
+  <operators>
+    <Operators>
+      <name>Bruce </name>
+      <surname>Bartie</surname>
+      <id>0001</id>
+    </Operators>
+  </operators>
+  <iSplitterPosition>700</iSplitterPosition>
+  <vscale>5.5</vscale>
+  <width>1672</width>
+  <height>967</height>
+  <locationx>51</locationx>
+  <locationy>6</locationy>
+  <output_resistor>100</output_resistor>
+  <input_resistor_top>1000</input_resistor_top>
+  <input_resistor_bottom>470</input_resistor_bottom>
+  <vdiode>0.7</vdiode>
+  <vloss>1.2</vloss>
+  <general_sleep>3</general_sleep>
+  <data_read_speed>50</data_read_speed>
+</UHTSerializationAppInfo>

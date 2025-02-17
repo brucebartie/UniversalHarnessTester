@@ -1,0 +1,84 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\usb_descriptors.o
+Folder=Intermediary
+DeviceName=PIC18F85J50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|usb_function_hid.c|usb_device.c|init.c|helpfunc.c||<obj>||<lib>||<lkr>|I:\VT2\UHT\UHT_V2\UHT_USB_V1\00.00.00.00\18f85j50_g.lkr||
+SuiteArgsString=
+ToolArgsString=-O-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File001]
+Location=I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\main.o
+Folder=Intermediary
+DeviceName=PIC18F85J50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|usb_function_hid.c|usb_device.c|init.c|helpfunc.c||<obj>||<lib>||<lkr>|I:\VT2\UHT\UHT_V2\UHT_USB_V1\00.00.00.00\18f85j50_g.lkr||
+SuiteArgsString=
+ToolArgsString=-O-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File002]
+Location=I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\usb_function_hid.o
+Folder=Intermediary
+DeviceName=PIC18F85J50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|usb_function_hid.c|usb_device.c|init.c|helpfunc.c||<obj>||<lib>||<lkr>|I:\VT2\UHT\UHT_V2\UHT_USB_V1\00.00.00.00\18f85j50_g.lkr||
+SuiteArgsString=
+ToolArgsString=-O-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File003]
+Location=I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\usb_device.o
+Folder=Intermediary
+DeviceName=PIC18F85J50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|usb_function_hid.c|usb_device.c|init.c|helpfunc.c||<obj>||<lib>||<lkr>|I:\VT2\UHT\UHT_V2\UHT_USB_V1\00.00.00.00\18f85j50_g.lkr||
+SuiteArgsString=
+ToolArgsString=-O-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File004]
+Location=I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\init.o
+Folder=Intermediary
+DeviceName=PIC18F85J50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|usb_function_hid.c|usb_device.c|init.c|helpfunc.c||<obj>||<lib>||<lkr>|I:\VT2\UHT\UHT_V2\UHT_USB_V1\00.00.00.00\18f85j50_g.lkr||
+SuiteArgsString=
+ToolArgsString=-O-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[File005]
+Location=I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\helpfunc.o
+Folder=Intermediary
+DeviceName=PIC18F85J50
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|main.c|usb_function_hid.c|usb_device.c|init.c|helpfunc.c||<obj>||<lib>||<lkr>|I:\VT2\UHT\UHT_V2\UHT_USB_V1\00.00.00.00\18f85j50_g.lkr||
+SuiteArgsString=
+ToolArgsString=-O-
+TraceCmdString=
+DebugOptions=-D__DEBUG -D__MPLAB_DEBUGGER_ICD3=1
+[TOOL_LOC_STAMPS]
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mcc18.exe

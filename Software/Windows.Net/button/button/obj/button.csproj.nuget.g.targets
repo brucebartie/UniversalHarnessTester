@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.json\8.0.4\buildTransitive\net462\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\8.0.4\buildTransitive\net462\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.resources.extensions\8.0.0\buildTransitive\net462\System.Resources.Extensions.targets" Condition="Exists('$(NuGetPackageRoot)system.resources.extensions\8.0.0\buildTransitive\net462\System.Resources.Extensions.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.win32\2.88.8\buildTransitive\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.win32\2.88.8\buildTransitive\net462\SkiaSharp.NativeAssets.Win32.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.macos\2.88.8\buildTransitive\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.macos\2.88.8\buildTransitive\net462\SkiaSharp.NativeAssets.macOS.targets')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.linux.nodependencies\2.88.8\buildTransitive\net462\SkiaSharp.NativeAssets.Linux.NoDependencies.targets" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.linux.nodependencies\2.88.8\buildTransitive\net462\SkiaSharp.NativeAssets.Linux.NoDependencies.targets')" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,3 @@
+Error[1027] I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\usb_host.c 61 : unable to locate 'usb_host_local.h'
+Error[1027] I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\usb_host.c 62 : unable to locate 'usb_hal_local.h'
+Error[1099] I:\VT2\UHT\UHT_3V3D\UHT_USB_V1\00.00.00.00\usb_host.c 1144 : Cannot set up the Buffer Descriptor Table pointer.

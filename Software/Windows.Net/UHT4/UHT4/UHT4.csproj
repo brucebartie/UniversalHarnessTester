@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{350C7E0F-A3F5-4EBB-A553-AF6A2077DC65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UHT4</RootNamespace>
+    <AssemblyName>UHT4</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Program2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeStandard, Version=3.1.4.0, Culture=neutral, PublicKeyToken=5f09bda868cc39e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BarcodeStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="HIDLibrary, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\HIDLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="SkiaSharp, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackGroundImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackGroundImages.Designer.cs">
+      <DependentUpon>BackGroundImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BgImagesManager.cs" />
+    <Compile Include="ButtonPropertyGrid.cs" />
+    <Compile Include="ButtonSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonSettings.Designer.cs">
+      <DependentUpon>ButtonSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Formats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formats.Designer.cs">
+      <DependentUpon>Formats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UHTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UHTForm.Designer.cs">
+      <DependentUpon>UHTForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HardwareDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HardwareDetails.Designer.cs">
+      <DependentUpon>HardwareDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HarnessDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HarnessDetails.Designer.cs">
+      <DependentUpon>HarnessDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HorizontalSplitter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HorizontalSplitter.Designer.cs">
+      <DependentUpon>HorizontalSplitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageSerialization.cs" />
+    <Compile Include="LabelSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabelSettings.Designer.cs">
+      <DependentUpon>LabelSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operators.cs" />
+    <Compile Include="OperatorsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperatorsForm.Designer.cs">
+      <DependentUpon>OperatorsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PinButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PinButton.Designer.cs">
+      <DependentUpon>PinButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PinButtonSerialization.cs" />
+    <Compile Include="PinVoltage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PinVoltage.Designer.cs">
+      <DependentUpon>PinVoltage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="CustomProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomProgressBar.Designer.cs">
+      <DependentUpon>CustomProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resistance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resistance.Designer.cs">
+      <DependentUpon>Resistance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serialization.cs" />
+    <Compile Include="SerializationAppInfo.cs" />
+    <Compile Include="SerializationTestData.cs" />
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestData.cs" />
+    <Compile Include="TestReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestReport.Designer.cs">
+      <DependentUpon>TestReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestResults.Designer.cs">
+      <DependentUpon>TestResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestTarget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestTarget.Designer.cs">
+      <DependentUpon>TestTarget.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BackGroundImages.resx">
+      <DependentUpon>BackGroundImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonSettings.resx">
+      <DependentUpon>ButtonSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomProgressBar.resx">
+      <DependentUpon>CustomProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formats.resx">
+      <DependentUpon>Formats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UHTForm.resx">
+      <DependentUpon>UHTForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HardwareDetails.resx">
+      <DependentUpon>HardwareDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HarnessDetails.resx">
+      <DependentUpon>HarnessDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HorizontalSplitter.resx">
+      <DependentUpon>HorizontalSplitter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabelSettings.resx">
+      <DependentUpon>LabelSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorsForm.resx">
+      <DependentUpon>OperatorsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PinButton.resx">
+      <DependentUpon>PinButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PinVoltage.resx">
+      <DependentUpon>PinVoltage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resistance.resx">
+      <DependentUpon>Resistance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestReport.resx">
+      <DependentUpon>TestReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResults.resx">
+      <DependentUpon>TestResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestTarget.resx">
+      <DependentUpon>TestTarget.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="label.bmp" />
+    <Content Include="Program2.ico" />
+    <None Include="Resources\con1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy *.dll c:\UHT4\*.*
+copy *.exe c:\UHT4\*.*
+copy *.pdb c:\UHT4\*.*</PostBuildEvent>
+  </PropertyGroup>
+</Project>
